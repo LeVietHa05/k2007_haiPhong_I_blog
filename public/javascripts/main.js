@@ -73,24 +73,48 @@ function createImageSlider(sliderId, imgList, nextBtnId, backBtnId) {
     initializeSlider();
 }
 
-const imgList = [
-    "images/placeholder.jpeg",
-    "images/crew0.JPG",
-    "images/crew1.JPG",
-    "images/crew2.jpeg",
-    "images/crew3.jpeg",
-    "images/crew4.jpeg",
-    "images/crew4.jpeg",
-    "images/crew5.jpeg",
-    "images/crew5.jpeg",
-    "images/crew0.JPG",
-    "images/crew4.jpeg",
-    "images/crew5.jpeg",
+const private = [
+    "images/WYNN8349.JPG",
+    "images/WYNN8242.JPG",
+    "images/IMG_0718.JPG",
+    "images/IMG_0719.JPG",
+    "images/IMG_0720.JPG",
+    "images/IMG_0721.JPG",
+    "images/WYNN8054.JPG",
+    "images/WYNN8057.JPG",
+    "images/WYNN8067.JPG",
+    "images/IMG_0613.JPG",
+    "images/IMG_0615.JPG",
+    "images/IMG_0616.JPG",
+    "images/WYNN8125.JPG",
 ];
 
-createImageSlider('priviteDinner_slider', imgList, 'priviteDinner_slider_next', 'priviteDinner_slider_back');
-createImageSlider('community_slider', imgList, 'community_slider_next', 'community_slider_back');
-createImageSlider('zeroWaste_slider', imgList, 'zeroWaste_slider_next', 'zeroWaste_slider_back');
+const comu = [
+    "images/hungazit1.png",
+    "images/IMG_0617.JPG",
+    "images/PXL_20240726_104332929.jpg",
+    "images/IMG_3362.jpeg",
+    "images/z5782085201337_75872f93845d29e3e41a2f4be6ab6559.jpg",
+    "images/z5782085061958_c20ce0573352eb5beaba01b8978eb0c3.jpg",
+]
+
+const zero = [
+    "images/image (2).png",
+    "images/image (3).png",
+    "images/DSC_2297.jpg",
+    "images/DSC_2301.jpg",
+    "images/DSC_2324.jpg",
+    "images/DSC_2328.jpg",
+    "images/WYNN8033.JPG",
+    "images/WYNN8040.JPG",
+    "images/WYNN8139.JPG",
+    "images/WYNN8094.JPG",
+    "images/WYNN7929.jpg",
+]
+
+createImageSlider('priviteDinner_slider', private, 'priviteDinner_slider_next', 'priviteDinner_slider_back');
+createImageSlider('community_slider', comu, 'community_slider_next', 'community_slider_back');
+createImageSlider('zeroWaste_slider', zero, 'zeroWaste_slider_next', 'zeroWaste_slider_back');
 
 // const AutoScroller = () => {
 //     const itemScroll = document.getElementById('home_slider');
