@@ -222,6 +222,16 @@ img {
     margin-right: 2rem;
 }
 
+.margin-v-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.margin-v-4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
 /* padding */
 
 .padding-1 {
