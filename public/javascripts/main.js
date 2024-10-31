@@ -105,8 +105,6 @@ const zero = [
     "images/DSC_2301.jpg",
     "images/DSC_2324.jpg",
     "images/DSC_2328.jpg",
-    "images/WYNN8033.JPG",
-    "images/WYNN8040.JPG",
     "images/WYNN8139.JPG",
     "images/WYNN8094.JPG",
     "images/WYNN7929.jpg",
@@ -210,4 +208,4 @@ function navActiveTracker() {
 
 
 }
-navActiveTracker();
+// navActiveTracker();
